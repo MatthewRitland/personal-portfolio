@@ -1,0 +1,40 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+/* the ul inside nav */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+nav li {
+    margin: 0 10px;
+    /* 0 for top, 10 px space between each item. This spaces the buttons from each other. */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
